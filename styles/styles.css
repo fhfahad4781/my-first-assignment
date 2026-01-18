@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*shared style*/
+.open-sans-font{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+.container{
+    width: 71%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.header{
+    background-color: #ffffff;
+    border-bottom: none;
+    padding: 16px 120px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 0 ;
+    flex-wrap: nowrap;
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.logo img{
+    width: auto ;
+    height: 40px;
+}
+.nav-menu{
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    padding: 0;
+    margin: 0;
+    flex-shrink: 0;
+}
+.nav-menu a{
+    text-decoration: none;
+    color: #444;
+    font-size:16px ; 
+    font-weight: 600;   
+}
+.nav-menu
+    a:hover{
+        color: #1f8f5f;
+    }
+.nav-btn{
+        background-color: #1f8f5f;
+        color: #fff;
+        padding: 12px 16px;
+        border-radius: 4px;
+        text-decoration: none;
+        font-size:16px ;
+        font-weight: 600;
+        cursor: pointer;
+        white-space: nowrap;
+        flex-shrink: 0;
+    }
+    
+    
+    .hero{
+        padding: 120px 0;
+        background-image: url("../images/hero-bg.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center top;
+        text-align: center;
+    }
+.hero-badge{
+        display: inline-block;
+        padding: 6px 14px;
+        border-radius: 999px;
+        font-size: 14px;
+        font-weight: 600;
+        color: #1f8f5f;
+        background-color: #ffffff;
+        margin-bottom: 24px;
+    }
+.hero-heading{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 24px;
+}
+.heading-dark{
+    color: #FFFFFF;
+}
+.heading-light{
+    color: #30B868;
+}
+.hero-text{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 32px;
+}
+.hero-buttons{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
+.first-btn{
+    background-color: #1f8f5f;
+        color: #fff;
+        padding: 12px 16px;
+        border-radius: 4px;
+        text-decoration: none;
+        font-size:16px ;
+        font-weight: 600;
+        cursor: pointer;
+        white-space: nowrap;
+        flex-shrink: 0;
+}
+.secondary-btn {
+    display: flex;
+    gap: 10px;
+
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    box-sizing: border-box;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    text-decoration: none;
+    background: transparent;
+    padding: 12px 16px;
+
+    cursor: pointer;
+}
+
+.secondary-btn:hover {
+    text-decoration: underline;
+}
+#notes .notes-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 120px 120px 0;
+}
+#notes .notes-container .notes-box{
+    display: flex;
+    gap: 24px;
+}
+.notes-container .section-heading h2{
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 16px;
+
+}
+.notes-container .section-heading p{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(98, 115, 130, 1);
+    margin-bottom: 44px;
+}
+.notes-box{
+display: flex;
+align-items: center;
+gap: 44;
+
+
+
+}
+.notes-box .notes-card{
+    width: 322px;
+height: 300px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 16;
+padding: 24px;
+border-radius: 8px;
+box-shadow: 0px 0px 8px 0px #0000000f;
+background: #ffffff;
+flex-direction: column;
+}
+.notes-box .notes-card img{
+width: 32px;
+height: 32px;
+}
+.notes-box .notes-card h3{
+color:#001931;
+font-size: 24px;
+font-weight: 600;
+text-align: center;
+margin-bottom: 16px;
+}
+.notes-box .notes-card p{
+    color:#627382;
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+}
+#info{
+    box-sizing: border-box;
+    padding: 120px ;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 60px;
+}
+#info.info-box{
+box-sizing: border-box;
+border: 102px 60px;
+
+}
+.info-box .section-heading .section-title{
+    color: #469165;
+font-size: 16px;
+font-weight: 500;
+margin-bottom: 16px;
+}
+.info-box .section-heading h2{
+color: #001931;
+font-style: Bold;
+font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+text-align: left;
+margin-bottom: 16px;
+}
+.info-box .section-heading p{
+    color:  #627382;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+margin-bottom: 40px;
+}
+.info-box ul{
+    list-style-type: none;
+    color:  #001931;
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+margin-bottom: 16px;
+text-align: left;
+}
+#trying{
+    padding: 0 120px 120px 120px ;
+    
+}
+#trying .box-content{
+    background: #f7f6f2;
+padding: 80px 40px;
+justify-content: center;
+    text-align: center;
+    padding: 80px 40px;
+    border-radius: 12px;
+}
+.box-content .box-heading{
+    color: #001931
+font-size: 40px;
+font-weight: 700;
+text-align: center;
+margin-bottom: 16px;
+}
+.box-content .heading-content{
+color: rgb(98, 115, 130);
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+margin-bottom: 24px;
+}
+.box-content .box-btn{
+    background-color: #1f8f5f;
+        color: #fff;
+        padding: 12px 16px;
+        border-radius: 4px;
+        text-decoration: none;
+        font-size:16px ;
+        font-weight: 600;
+        cursor: pointer;
+        white-space: nowrap;
+        flex-shrink: 0;
+        margin-bottom: 16px;
+}
+.box-content .ending-content{
+    color: #627382
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+}
+#footer{
+    padding: 120px 120px 30px 120px ;
+    background-color: #001931;
+}
+.footer-container .footer-logo{
+    display: flex;
+gap: 1000px;
+}
+.footer-container .icons h4{
+    color: #ffffff;
+font-size: 20px;
+font-weight: 500;
+line-height: 28px;
+
+}
+.footer-container p{
+    color: #fafafa;
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+}
